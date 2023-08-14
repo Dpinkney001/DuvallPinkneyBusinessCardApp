@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DuvallPinkneyBusinessCardApp</string>
+    <string name="full_name_text">Duvall D.W. Pinkney</string>
+    <string name="website_text">https://duvallpinkney.com</string>
+    <string name="email_text">duvall.pinkney@gmail.com</string>
+    <string name="linkedin_text">https://www.linkedin.com/in/duvall-pinkney-16949260/</string>
+    <string name="title_text">Self-Employed / Student</string>
+    <string name="phone_text">9172429975</string>
 </resources>
