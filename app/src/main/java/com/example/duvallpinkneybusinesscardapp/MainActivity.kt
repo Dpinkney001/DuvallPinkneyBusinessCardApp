@@ -15,6 +15,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -57,14 +58,16 @@ fun GreetingText(name: String, website: String,phone: String, title: String, ema
     ) {
         Text(
             text = name,
-            fontSize = 36.sp,
+            color = Color(0xFF3ddc84),
+            fontSize = 20.sp,
             lineHeight = 116.sp,
             textAlign = TextAlign.Center,
             modifier = Modifier.padding(top = 16.dp)
         )
         Text(
             text = title,
-            fontSize = 36.sp,
+            color = Color(0xFF3ddc84),
+            fontSize = 20.sp,
             modifier = Modifier
                 .padding(top = 16.dp)
                 .padding(end = 16.dp)
@@ -78,14 +81,16 @@ fun GreetingText(name: String, website: String,phone: String, title: String, ema
         ) {
             Text(
                 text = website,
-                fontSize = 36.sp,
-                lineHeight = 116.sp,
+                fontSize = 20.sp,
+                color = Color(0xFF3ddc84),
+                //lineHeight = 116.sp,
                 textAlign = TextAlign.Center,
                 modifier = Modifier.padding(top = 16.dp)
             )
             Text(
                 text = email,
-                fontSize = 36.sp,
+                fontSize = 20.sp,
+                color = Color(0xFF3ddc84),
                 modifier = Modifier
                     .padding(top = 16.dp)
                     .padding(end = 16.dp)
@@ -93,14 +98,16 @@ fun GreetingText(name: String, website: String,phone: String, title: String, ema
             )
             Text(
                 text = linkedin,
-                fontSize = 36.sp,
-                lineHeight = 116.sp,
+                fontSize = 20.sp,
+                color = Color(0xFF3ddc84),
+                //lineHeight = 116.sp,
                 textAlign = TextAlign.Center,
                 modifier = Modifier.padding(top = 16.dp)
             )
             Text(
                 text = phone,
-                fontSize = 36.sp,
+                color = Color(0xFF3ddc84),
+                fontSize = 20.sp,
                 modifier = Modifier
                     .padding(top = 16.dp)
                     .padding(end = 16.dp)
